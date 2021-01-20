@@ -15,8 +15,8 @@ module SignalFx
               require 'active_support'
               require 'rails'
               require 'rails/instrumentation'
+            rescue LoadError => e
               puts e.message
-            rescue LoadError
               return
             end
 
