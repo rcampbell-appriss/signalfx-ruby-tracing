@@ -1,5 +1,5 @@
 module Signalfx
   module Tracing
-    VERSION = "2.2.0"
+    VERSION = '1.6.1'
   end
 end
